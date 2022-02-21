@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	height: 100%;
+}
+li {
+    display: inline;
+  }
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+#sidebar {
+	display: table-cell;
+	width: 15%;
+	vertical-align: top;
+    background-color: beige;
+}
+
+#content {
+	display: table-cell;
+	width: 85%;
+	vertical-align: top;
+    background-color: blueviolet;
+}
